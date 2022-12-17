@@ -1,0 +1,124 @@
+.main-container {
+  /* background-color: #6884c041; */
+  margin: 0;
+  /* height: 100vh; */
+  margin-top: 128px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  margin-top: 64px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 550px;
+  height: 550px;
+  background-color: #1f2937;
+  box-shadow: -2px 4px 15px black;
+  border-radius: 6px;
+}
+
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  margin-top: 115px;
+  margin-left: 52px;
+  margin-right: 144px;
+  margin-bottom: 10px;
+  width: 354px;
+  height: 80px;
+  line-height: 40px;
+  font-size: 2rem;
+  letter-spacing: -2.5%;
+  font-family: "Karla", sans-serif;
+  color: #ffffff;
+  /* border: 2px white solid; */
+}
+
+.description {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: -30px;
+  white-space: nowrap;
+  color: #d5d4d8;
+  line-height: 28px;
+  text-align: left;
+  font-family: "Inter", sans-serif;
+}
+
+#generate-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 191px;
+  height: 42px;
+  margin-top: 60px;
+  margin-bottom: 233px;
+  margin-left: 70px;
+  margin-right: 324px;
+  font-family: "Inter";
+  font-style: Medium;
+  line-height: 124%;
+  font-size: 16px;
+  background-color: #4adf86;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
+}
+
+#generate-btn:hover {
+  box-shadow: 0 0 6px #55f991;
+  color: whitesmoke;
+}
+
+.password-wrapper {
+  display: flex;
+  margin-right: 45px;
+  margin-left: 45px;
+  margin-top: 5px;
+  padding-bottom: 130px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 169px;
+}
+
+#text-accent {
+  color: #4adf86;
+}
+
+#decorative-line {
+  width: 446px;
+  border: 0.5px solid #2f3e53;
+  margin-top: -180px;
+}
+
+.password-input {
+  margin-left: auto;
+  margin-right: auto;
+  width: 180px;
+  height: 32px;
+  margin-top: 35px;
+  margin-left: 20px;
+  border: none;
+  background-color: #273549;
+  border-radius: 6px;
+  padding: 2px 16px 2px 16px;
+  font-size: 16px;
+  line-height: 32px;
+  font-family: "Inter";
+  text-align: center;
+  color: #55f991;
+  caret-color: transparent;
+}
+
+.password-input:focus {
+  outline: none !important;
+  box-shadow: 0 0 8px #55f991;
+  /* cursor: none; */
+}
